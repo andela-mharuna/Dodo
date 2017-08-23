@@ -12,12 +12,12 @@
       <h1 class="jumbotron">Dodo Directory</h1>
       <div class="row">
         {% for person in persons %}
-        <div class="col-sm-4">
+        <div class="col-sm-3">
           <section>
             <img src="{{ person.image }}" alt="" />
-            <p>{{ person.name }}</p>
-            <p>{{ person.title }}</p>
-            <p>{{ person.email }}</p>
+            <h4 class="person-name">{{ person.name }}</h4>
+            <p class="person-title">{{ person.title }}</p>
+            <p class="person-email">{{ person.email }}</p>
           </section>
         </div>
         {% endfor %}

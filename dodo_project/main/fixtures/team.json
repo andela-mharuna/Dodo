@@ -1,0 +1,32 @@
+[
+  {
+    "model": "main.person",
+    "pk": 1,
+    "fields": {
+      "name": "Mayowa Makinde",
+      "title": "Chairman",
+      "email": "mayowa@gmail.com",
+      "image": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAgAAAAAJGNmZDJkOWE1LTcwNDAtNDYzMi04M2U0LTZmZGM2ZmRiZWUzYg.jpg"
+    }
+  },
+  {
+    "model": "main.person",
+    "pk": 2,
+    "fields": {
+      "name": "Bamidele Daniel",
+      "title": "Backend Connoisseur",
+      "email": "bamidele@gmail.com",
+      "image": "https://pbs.twimg.com/profile_images/792000030555140096/tTgimJs8.jpg"
+    }
+  },
+  {
+    "model": "main.person",
+    "pk": 3,
+    "fields": {
+      "name": "JohnBosco Ohia",
+      "title": "Django King",
+      "email": "jb@gmail.com",
+      "image": "https://avatars0.githubusercontent.com/u/15367756?v=4&s=400"
+    }
+  }
+]
